@@ -17,13 +17,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-        </button>
-        
-      <a href="/" class= "navbar-brand">DevMatch</a>
-      </div>
-      <div class="collapse navbar-collapse" id="main-nav-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href= "/about">About</a></li>
+          </button>
+          <a href="/" class="navbar-brand">DevMatch</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav-collapse">
+          <ul class="nav navbar-nav navbar-right" style="float: right;">
+            <li><a href="#">Sign Up</a></li>
+             <li><a href="/about">About</a></li>
+             <li class="dropdown">
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret">More</span></a>
+            </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
@@ -33,4 +36,6 @@
       <%= yield %>
     </div>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 </html>
