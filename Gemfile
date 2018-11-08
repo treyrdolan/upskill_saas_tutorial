@@ -30,6 +30,9 @@ gem 'jbuilder', '2.5.0'
 
 gem 'bootstrap-sass', '3.3.7'
 
+#use Font Awesome Sass Gem for adding Icons 
+gem 'font-awesome-sass',  '4.6.2'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'

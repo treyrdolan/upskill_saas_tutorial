@@ -15,6 +15,8 @@
  */
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
+ @import "font-awesome-sprockets";
+ @import "font-awesome";
  
  //Typography Styles
  h1, h2, h3 {
@@ -29,12 +31,12 @@
     background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-//Nav Styles
+//NavBar Styles
 .navbar{
   border: none;
 }
 
-
+//NavBar Styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a  {
   color: white;
