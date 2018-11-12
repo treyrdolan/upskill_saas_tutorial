@@ -33,6 +33,9 @@ gem 'bootstrap-sass', '3.3.7'
 #use Font Awesome Sass Gem for adding Icons 
 gem 'font-awesome-sass',  '4.6.2'
 
+#Use hirb for better database display in Console 
+gem 'hirb', '0.7.3'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
