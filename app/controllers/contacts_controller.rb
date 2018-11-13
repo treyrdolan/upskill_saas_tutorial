@@ -1,4 +1,5 @@
 class ContactsController < ApplicationController
+  #Create a blank contact form
   def new
     @contact = Contact.new
   end
