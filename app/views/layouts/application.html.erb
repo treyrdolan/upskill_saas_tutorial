@@ -32,6 +32,7 @@
       </div>
     </nav>
     <div class="container">
+      <!--flash tag (Array Example: Taking the data in the brackets and executing bootstap alerts)-->
       <% flash.each do |type, msg| %>
         <%= content_tag :div, msg, class: "alert alert-#{type}" %>
       <% end %>

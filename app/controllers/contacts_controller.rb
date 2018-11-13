@@ -3,6 +3,7 @@ class ContactsController < ApplicationController
     @contact = Contact.new
   end
   
+  #Log-In Code (Save Data that user fills out)
   def create
     @contact = Contact.new(contact_params)
     if @contact.save
