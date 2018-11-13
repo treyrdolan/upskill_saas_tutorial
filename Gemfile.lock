@@ -168,7 +168,6 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass (= 3.3.7)
-  bundler (= 1.17.1)
   byebug
   coffee-rails (= 4.2.1)
   font-awesome-sass (= 4.6.2)
